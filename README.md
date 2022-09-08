@@ -4,4 +4,9 @@ A minimal Chinese to PinYin converter. There is only one single file of this con
 ```
 string Chinese = "十年磨一剑。";
 string PinYin = PinYinEngine.GetPinYin(Chinese, "_");
+Console.WriteLine("{0} => {1}", Chinese, PinYin);
 ```
+
+outputs
+
+![](Screenshot.png)
